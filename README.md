@@ -8,7 +8,7 @@ Pascual, Jasmine Nicole S.
 
 2ECE-B
 
-September 19, 2024
+September 17, 2024
 
 **I. Intended Learning Outcomes:**
 
