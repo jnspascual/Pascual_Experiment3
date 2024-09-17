@@ -10,7 +10,7 @@ Pascual, Jasmine Nicole S.
 
 September 19, 2024
 
-**I. Intended Learning utcomes:**
+**I. Intended Learning Outcomes:**
 
 1. To identify the codes and functions incorporated in the Pandas library
 2. To be able to apply and use the different codes and functions in creating a Python program using a Pandas library
@@ -22,7 +22,7 @@ You may submit your Jupyter notebook in the dedicated submission bin.
 
 For this programming assignment. download the following file and save to your default user folder:
 http://bit.ly/Cars_file
-
+##
 **PROBLEM 1**
 Save your file as Surname_Pandas-P1.py
 
@@ -34,32 +34,22 @@ b. Display the first five and last five rows of the resulting cars.
 
 **Python code:**
 
-import pandas as pd #Access the Pandas library 
+import pandas as pd _#Access the Pandas library_ 
 
-cars = pd.read_csv('cars.csv') #Load the .csv file into a DataFrame called 'cars'
+cars = pd.read_csv('cars.csv') _#Load the .csv file into a DataFrame called 'cars'_
 
-cars #Display the DataFrame 'cars'
+cars _#Display the DataFrame 'cars'_
 
-print("First five rows of the resulting cars:") #Present a statement introducing the first 5 rows of the DataFrame 
+print("First five rows of the resulting cars:") _#Present a statement introducing the first 5 rows of the DataFrame_ 
 
-print(cars.head()) #Display the first 5 rows of the DataFrame 'cars'
+print(cars.head()) _#Display the first 5 rows of the DataFrame 'cars'_
 
-print("Last five rows of the resulting cars:") #Present a statement introducing the last 5 rows of the DataFrame
+print("Last five rows of the resulting cars:") _#Present a statement introducing the last 5 rows of the DataFrame_
 
-print(cars.tail()) #Display the last 5 rows of the DataFrame 'cars'
+print(cars.tail()) _#Display the last 5 rows of the DataFrame 'cars'_
 
 ##
 
-**PROBLEM 2**
-Save your file as Surname_Pandas-P2.py
+**Progress Tracker:**
 
-Using the dataframe cars in problem 1, extract the following information using subsetting, slicing and indexing operations.
-
-a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7 ...) of cars.
-
-b. Display the row taht contains the 'Model' of 'Mazda RX4'.
-
-c. How many cylinders ('cyl') does that car model 'Camaro Z28' have?
-
-d. Determine how many cylinders ('cyl') and what gear type ('gear') do the models 'Mazda RX4 Wag', 'Ford Pantera L', and 'Honda Civic' have.
-
+Semptember 17, 2024: Created the repository, created the Python program for Problem 1, and submitted through Canvas.
