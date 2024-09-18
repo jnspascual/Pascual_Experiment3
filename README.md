@@ -34,22 +34,23 @@ b. Display the first five and last five rows of the resulting cars.
 
 **Python code:**
 
-import pandas as pd _#Access the Pandas library_ 
-
-cars = pd.read_csv('cars.csv') _#Load the .csv file into a DataFrame called 'cars'_
-
-cars _#Display the DataFrame 'cars'_
-
-print("First five rows of the resulting cars:") _#Present a statement introducing the first 5 rows of the DataFrame_ 
-
-print(cars.head()) _#Display the first 5 rows of the DataFrame 'cars'_
-
-print("Last five rows of the resulting cars:") _#Present a statement introducing the last 5 rows of the DataFrame_
-
-print(cars.tail()) _#Display the last 5 rows of the DataFrame 'cars'_
+      import pandas as pd _#Access the Pandas library_ 
+      
+      cars = pd.read_csv('cars.csv') _#Load the .csv file into a DataFrame called 'cars'_
+      
+      cars _#Display the DataFrame 'cars'_
+      
+      print("First five rows of the resulting cars:") _#Present a statement introducing the first 5 rows of the DataFrame_ 
+      
+      print(cars.head()) _#Display the first 5 rows of the DataFrame 'cars'_
+      
+      print("Last five rows of the resulting cars:") _#Present a statement introducing the last 5 rows of the DataFrame_
+      
+      print(cars.tail()) _#Display the last 5 rows of the DataFrame 'cars'_
 
 ##
 
 **Progress Tracker:**
 
-Semptember 17, 2024: Created the repository, created the Python program for Problem 1, and submitted through Canvas.
+September 17, 2024: Created the repository, created the Python program for Problem 1, and submitted through Canvas.
+September 18, 2024: Edited the code
